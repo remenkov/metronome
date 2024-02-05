@@ -40,8 +40,12 @@
 		4C19A6BF2B7158BF00AC3B2F = {
 			isa = PBXGroup;
 			children = (
-				4C19A6CA2B7158BF00AC3B2F /* Metronome */,
+				4CD403272B715F7000C9F62D /* Controllers */,
+				4CD403252B715F5900C9F62D /* Models */,
 				4C19A6C92B7158BF00AC3B2F /* Products */,
+				4CD403282B715F7E00C9F62D /* Resources */,
+				4C19A6CA2B7158BF00AC3B2F /* SupportingFiles */,
+				4CD403262B715F6500C9F62D /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,18 +57,46 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4C19A6CA2B7158BF00AC3B2F /* Metronome */ = {
+		4C19A6CA2B7158BF00AC3B2F /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
 				4C19A6CB2B7158BF00AC3B2F /* AppDelegate.swift */,
 				4C19A6CD2B7158BF00AC3B2F /* SceneDelegate.swift */,
-				4C19A6CF2B7158BF00AC3B2F /* ViewController.swift */,
-				4C19A6D12B7158BF00AC3B2F /* Main.storyboard */,
-				4C19A6D42B7158C100AC3B2F /* Assets.xcassets */,
-				4C19A6D62B7158C100AC3B2F /* LaunchScreen.storyboard */,
 				4C19A6D92B7158C100AC3B2F /* Info.plist */,
 			);
-			path = Metronome;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		4CD403252B715F5900C9F62D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4CD403262B715F6500C9F62D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C19A6D12B7158BF00AC3B2F /* Main.storyboard */,
+				4C19A6D62B7158C100AC3B2F /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4CD403272B715F7000C9F62D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C19A6CF2B7158BF00AC3B2F /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4CD403282B715F7E00C9F62D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C19A6D42B7158C100AC3B2F /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,7 +326,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6AD9FQSD8L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Metronome/Info.plist;
+				INFOPLIST_FILE = SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -322,7 +354,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6AD9FQSD8L;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Metronome/Info.plist;
+				INFOPLIST_FILE = SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
